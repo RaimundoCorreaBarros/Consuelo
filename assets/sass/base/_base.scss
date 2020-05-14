@@ -1,0 +1,17 @@
+body {
+    font-family: $merriweather;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $titulos;
+}
+
+h3 {
+    font-size: 18px;
+    color: $titulos;
+}
+
+p {
+    font-size: $large;
+    color: $textos;
+}

@@ -1,0 +1,27 @@
+.ficha {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    background-color: $fondo1;
+}
+
+p {
+    font-size: $x-small;
+}
+
+.ficha__titulo {
+    padding: 2rem 0;
+
+}
+
+.ficha__textos {
+    padding: 1rem 0;
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.ficha__lista {
+    margin-top: 12px;
+    line-height: 6px;
+}

@@ -1,0 +1,56 @@
+.hero {
+    background-color: $morado1;
+    background: radial-gradient(100% 100% at 50% 0%, $morado2 0%, $morado1 100%);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.hero__logo {
+    margin: 3rem;
+    img {
+        width: 156px;
+        height: 168px;
+    }
+}
+
+.hero__texto {
+    color: $white;
+    margin-top: 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero__app {
+    position: relative;
+    bottom: -140px;
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero__app {        
+        bottom: -100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__app {        
+        bottom: -110px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero__app {        
+        bottom: -120px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .hero__app {
+        
+        bottom: 140px;
+    }
+}
+

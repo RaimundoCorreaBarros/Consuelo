@@ -1,0 +1,20 @@
+// Vendors
+@import 'vendors/normalize.scss';
+@import 'vendors/bootstrap-4.4.1/scss/bootstrap.scss';
+
+// Abstracts
+@import 'abstracts/variables';
+
+// Base
+@import 'base/reset';
+@import 'base/tipography';
+@import 'base/base';
+
+// Components
+
+// Layout
+@import 'layout/hero';
+@import 'layout/ficha';
+@import 'layout/about';
+@import 'layout/problema';
+@import 'layout/proceso';
