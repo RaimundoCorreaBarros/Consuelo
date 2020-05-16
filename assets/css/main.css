@@ -10232,11 +10232,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #58627C;
 }
 
-h3 {
-  font-size: 18px;
-  color: #58627C;
-}
-
 p {
   font-size: 19px;
   color: #000000;
@@ -10357,9 +10352,17 @@ p {
   padding: 4rem;
 }
 
+.problema__titulo {
+  padding: 1rem 0;
+}
+
 .proceso {
   padding: 5rem 0;
   width: 60%;
+}
+
+.proceso__titulo {
+  padding: 1rem 0;
 }
 
 .investigacion {
@@ -10376,6 +10379,36 @@ p {
 
 .investigacion__tabla {
   width: 73%;
+  padding-bottom: 1rem;
+}
+
+.investigacion__cita {
+  text-align: right;
+  font-style: italic;
+}
+.investigacion__cita img {
+  float: left;
+  width: 88px;
+}
+
+.investigacion__cita-texto {
+  width: 40%;
+}
+
+.analisis__texto {
+  width: 55%;
+}
+
+.analisis__img {
+  text-align: center;
+}
+.analisis__img img {
+  width: 85%;
+  height: auto;
+}
+
+.analisis__arquetipo-cliente-1 {
+  background-color: rgba(187, 107, 217, 0.1);
 }
 
 /*# sourceMappingURL=main.css.map */

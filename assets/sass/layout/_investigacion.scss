@@ -12,4 +12,18 @@
 
 .investigacion__tabla {
     width: 73%;
+    padding-bottom: 1rem;
+}
+
+.investigacion__cita {
+    text-align: right;
+    font-style: italic;
+    img {
+        float: left;
+        width: 88px;
+    }
+}
+
+.investigacion__cita-texto {
+    width: 40%;
 }

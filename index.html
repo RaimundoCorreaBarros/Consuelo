@@ -58,7 +58,7 @@
         </div>
     </header>
 
-    <section class="ficha container">
+    <section class="ficha">
         <div class="container">
             <div class="container">
                 <h3 class="ficha__titulo">Ficha técnica</h3>
@@ -137,9 +137,10 @@
         <div class="row">
             <div class="col-sm-5">
                 <div class="container problema__texto">
-                    <h3>El problema inicial</h3>
-                    <h4>nuestra oportunidad</h4>
-                    <br>
+                    <div class="problema__titulo">
+                        <h3>El problema inicial</h3>
+                        <h2>nuestra oportunidad</h2>
+                    </div>                    
                     <p>Desde el año 2009 se incorporan bicicletas y scooter compartidos, fomentando la intermodalidad y el abandono del uso del automovil; logrando instalarse como una alternativa orgánica que responde a la crisis ambiental y propicia una mejor calidad de vida.</p>
                     <p>Hasta ahora, las distintas marcas no se han integrado como lo hizo en su momento el Transantiago con el transporte público, lo que genera una barrera en el acceso.</p>
                     <p>La relevancia está dada porque el transporte es un servicio de uso diario, que incide en la calidad de vida de las personas; al tiempo que tenemos una gran masa crítica deseosa de hacerse cargo de los problemas ambientales.</p> 
@@ -156,21 +157,26 @@
     <!-- Proceso -->
     <section class="">
         <div class="proceso container">
-            <h3>Proceso de diseño</h3>
+            <div class="proceso__titulo">
+                <h2>Proceso de diseño</h2>
+            </div>            
             <p>En la primera fase del proceso de diseño fue definir un problema inicial y en base a eso, generamos el mapa de actores para entender a quiénes debíamos entrevistar. Seguimos con la definición de 2 hipótesis y en base a eso diseñamos la investigación. Incluyó entrevistas con expertos, encuestas, opinión hunter, observación e investigación de escritorio para comprender al usuario, las marcas asociadas y las soluciones ya existentes. Era importante entender el problema y los usuarios antes de proponer cualquier idea.</p>
             <p>Una vez analizada la información, realizamos un diagnóstico centrándonos en el diseño de arquetipos y el viaje del usuario actual en 2 casos: el usuario de bicicletas compartidas y el usuario con bicicleta propia. Con ese diagnóstico re-definimos el problema y el desafío de innovación, acompañado de una propuesta de innovación.</p>
             <p>En la segunda fase, comenzamos a buscar ideas que respondieran a la problemática definida. Para ello realizamos talleres de co-ideación que incluyó actividades como los sombreros de pensar, 3x3x3, agrupación de ideas, priorización de iniciativas. Con ello, volvimos sobre el viaje del usuario, pero esta vez pensando en la experiencia ideal que queríamos construir, definimos las métricas y el blueprint.</p>
             <p>Posteriormente pasamos a una fase de prototipado y testeo. Donde me centré en los flujos de modo de diseñar una experiencia completamente omnicanal. Con la retroalimentación obtenida, hicimos los ajustes de nuestros prototipos.</p>
             <p>Al día de hoy el servicio no ha sido implementado, pero esperamos presentarlo a algún concurso de innovación para obtener los fondos que nos permitan darle vida.</p>
-            <img src="assets/images/diagrama-proceso.png" class="mt-5" alt="">
+            <img src="assets/images/diagrama-proceso.png" class="mt-5" alt="">            
         </div>
-        <img src="assets/images/proceso.png" alt="">
+        <div class="container">
+            <img src="assets/images/proceso.png" alt="">
+        </div>
+        
     </section>
 
     <!-- Investigacion -->
     <section class="investigacion">
         <div class="container investigacion__texto">
-            <h3 class="investigacion__titulo">Investigación</h3>
+            <h2 class="investigacion__titulo">Investigación</h2>
             <p>Definimos 2 hipótesis de investigación que nos permitieron definir nuestra investigación:</p>
             <p>➔ Hay congestión vehicular porque los usuario no se bajan del auto, dado que no ven valor ni incentivo al uso de transporte público.</p>
             <p>➔ Hay congestión vehicular por la falta de información para ciclistas que permita tener rutas alternativas y eficientes de transporte en Santiago.</p>
@@ -181,11 +187,81 @@
         </div>
         <div class="container investigacion__texto">
             <h3 class="mt-5 mb-5">Entrevista con experto</h3>
+            <p>Pese a haber identificado a una serie de expertos en el tema, decidimos entrevistar a Ricardo Hurtubia, Académico Escuela de Arquitectura UC, investigador del Centro de Desarrollo Urbano Sustentable y reconocido activista por el uso de la bicicleta, quien hizo énfasis en la necesidad de mejorar las actuales condiciones de infraestructura para subir a más personas a la bicicleta.</p>
+            <div class="investigacion__cita d-flex justify-content-end align-items-center mt-4">
+                <img src="assets/images/ricardo-hurtubia.png" class="mr-3" alt="">
+                <div class="investigacion__cita-texto">
+                    <p>“Lo que desincentiva es la seguridad en las calles, las personas tienen miedo de andar en bicicleta en la calle”.</p>
+                </div>
+            </div>
         </div>
-
-
+        <div class="container investigacion__texto">
+            <h3 class="mt-5 mb-5">Información de los usuarios</h3>
+            <p>Realizamos 2 encuestas en línea: la primera, con 43 respuestas, para establecer patrones demográficos. La segunda, con 64 respuestas, para entender las motivaciones del uso de la bicicleta compartida y profundizar respecto de su uso.</p>
+            <p>Después de analizar las respuestas, esta fue la información más relevante para la toma de decisiones en la creación de la solución:</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">No se como prefieres estos %</div>
+                <div class="col-sm-3">en formato foto</div>
+                <div class="col-sm-3">como las tablas</div>
+                <div class="col-sm-3">o texto</div>
+            </div>
+        </div>
+        <div class="container investigacion__texto mt-5 mb-5">
+            <p>Lo que vemos es que el 16% de los ciclistas usan bicicletas compartidas y que la mitad de ellos prefiere el pase diario.</p>
+        </div>
+        <div class="container investigacion__texto mt-5 mb-5">
+            <h3 class="mt-5 mb-5">Hallazgos</h3>
+            <p>Los usuarios recreativos tienen miedo de andar por la calle. La perciben como insegura, no cuentan con facilidades o no cuentan con medidas de protección exigidas por la ley.</p>
+            <p>Las distancias no inciden en la decisión de usuarios medianamente expertos, en cambio si es relevante para los más novatos.</p>
+            <p>La ley es un factor determinante, por ejemplo encontramos una fuerte tendencia a no usar la vereda por ser ilegal.</p>
+            <p>Las razones para no usar bicicleta están asociadas a inseguridad, distancias largas (que en los usuarios de bicicleta no resultó relevante) y por desconocimiento de ruta. Otro elemento disuasor es el peso de la carga y si van o no acompañados.</p>
+            <p>Los obstáculos percibidos en la ruta siempre tienen que ver con un medio de transporte distinto. La convivencia vial parece no ser posible por el desconocimiento del comportamiento del otro.</p>
+            <p>Descubrimos que mientras más amateur es el ciclista, es clave conocer las rutas y contar con ciclovías que conecten mayor cantidad de kilómetros.</p>
+            <p>Transversalmente, no importa el medio de transporte que escojas a todos les duele el alto tráfico y nivel de atochamiento, el estado de las calles y la falta de corredores exclusivos para las micros.</p>
+            <p>En cuanto a seguridad, el auto seguido por el metro, son los medios de transporte percibidos como más seguros, en oposición a la bicicleta percibido como el medio más inseguro.</p>
+            <p>El sistema de pago mensual no se ajustaba a las necesidades expresadas por la mayoría de los clientes.</p>
+            <p>El trayecto de la bicicleta y el contacto con el entorno vial inseguriza al usuario.</p>
+            <p>Se habló de las constantes fallas que presentan las bicicletas en su devolución por lo que nunca se dejaba de cobrar y el viaje salía más caro por la cantidad de tiempo que se usó la bicicleta.</p>
+        </div>
+        <div class="container investigacion__texto mt-5 mb-5">
+            <h3 class="mt-5 mb-5">Investigación de escritorio</h3>
+            <p>En paralelo investigamos datos y hábitos relacionados con los ciclistas en las ciclovías y cómo en otros países habían logrado abandonar el auto en forma progresiva.</p>
+            <p>Además investigamos las marcas que componen la oferta en Santiago, sus atributos diferenciadores y los métodos de pago, además de su cobertura (Bike Santiago, Bici Las Condes, Mobike y Lime).</p>
+        </div>
     </section>
 
+
+    <!-- Analisis -->
+    <section class="analisis">
+        <div class="container analisis__texto mb-5">
+            <h2 class="mb-5">Análisis</h2>
+            <h3 class="mb-4">Arquetipos</h3>
+            <p>Levantamos 5 arquetipos: inexperto, deportista, bike lover, wanna be, ciclista furioso.</p>
+        </div>
+        <div class="container mt-4 mb-4 .analisis__img">
+            <img src="assets/images/arquetipos.png" class="img-fluid"  alt="">
+        </div>
+        <div class="row">
+            <div class="col-sm-6 analisis__arquetipo-cliente-1">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-sm-6">
+                            <div class="container mt-5">
+                                <h4>Arquetipo del cliente</h4>
+                                <h5>Bike lover</h5>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+
+    </section>
 
 
 
