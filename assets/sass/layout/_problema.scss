@@ -1,15 +1,7 @@
 .problema {
     background-color: $fondo2;
-    display: grid;
-    grid-template-columns: 0.8fr 1.2fr;
 }
 
 .problema__texto {
-    grid-column: 1;
     padding: 4rem;
-    
-}
-
-.problema__img {
-    grid-column: 2;
 }
