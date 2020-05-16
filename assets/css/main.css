@@ -10411,4 +10411,13 @@ p {
   background-color: rgba(187, 107, 217, 0.1);
 }
 
+.analisis__arquetipo-cliente-2 {
+  background-color: rgba(242, 153, 74, 0.1);
+}
+
+.analisis__arquetipo-img {
+  padding: 1rem 0;
+  width: 94px;
+}
+
 /*# sourceMappingURL=main.css.map */
