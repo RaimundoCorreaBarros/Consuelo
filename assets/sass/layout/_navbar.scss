@@ -1,0 +1,19 @@
+.bg-color {
+    background-color: transparent;
+    path {
+        fill: $white !important;
+    }
+}
+
+.bg-color.scrolled {
+    background-color: $white;
+    color: #000 !important;
+    a {
+        color: #000 !important;
+        text-decoration: none;
+    }
+
+    path {
+        fill: #000 !important;
+    }
+}

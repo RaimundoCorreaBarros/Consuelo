@@ -10242,6 +10242,25 @@ p {
   color: #000000;
 }
 
+.bg-color {
+  background-color: transparent;
+}
+.bg-color path {
+  fill: #ffffff !important;
+}
+
+.bg-color.scrolled {
+  background-color: #ffffff;
+  color: #000 !important;
+}
+.bg-color.scrolled a {
+  color: #000 !important;
+  text-decoration: none;
+}
+.bg-color.scrolled path {
+  fill: #000 !important;
+}
+
 .hero {
   background-color: #1A1C41;
   background: radial-gradient(100% 100% at 50% 0%, #454CA4 0%, #1A1C41 100%);
@@ -10259,9 +10278,11 @@ p {
 }
 
 .hero__texto {
-  color: #ffffff;
   margin-top: 1.5rem;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero__texto p {
+  color: #ffffff;
 }
 
 .hero__app {
@@ -10346,6 +10367,22 @@ p {
 .proceso {
   padding: 5rem 0;
   width: 60%;
+}
+
+.investigacion {
+  padding: 5rem 0;
+}
+
+.investigacion__titulo {
+  padding-bottom: 1rem;
+}
+
+.investigacion__texto {
+  width: 55%;
+}
+
+.investigacion__tabla {
+  width: 73%;
 }
 
 /*# sourceMappingURL=main.css.map */
