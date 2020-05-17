@@ -7,6 +7,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-size: $large;
+    font-size: $medium;
     color: $textos;
+}
+
+h2 {
+    font-size: $xxxx-large;
+}
+
+h3 {
+    font-size: $xxx-large;
+}
+
+h4 {
+    font-size: $xx-large;
+}
+
+h5 {
+    font-size: $x-large;
+}
+
+h6 {
+    font-size: $large;
 }

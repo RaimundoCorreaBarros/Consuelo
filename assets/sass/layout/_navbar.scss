@@ -1,9 +1,24 @@
 .bg-color {
     background-color: transparent;
+    transition: all 1s ease;
     path {
         fill: $white !important;
     }
 }
+
+.bg-light {
+    background-color: $white;
+    color: #000 !important;
+    a {
+        color: #000 !important;
+        text-decoration: none;
+    }
+
+    path {
+        fill: #000 !important;
+    }
+}
+
 
 .bg-color.scrolled {
     background-color: $white;
@@ -16,4 +31,10 @@
     path {
         fill: #000 !important;
     }
+    .navbar-dark .navbar-toggler {
+        color: rgba(0, 0, 0, 0.5) !important;
+        border-color: rgba(0, 0, 0, 0.1) !important;
+    }
 }
+
+    

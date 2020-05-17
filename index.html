@@ -54,14 +54,17 @@
             <p>El servicio que reune a todas las bicicletas compartidas</p>
         </div>
         <div class="hero__app">
-            <img src="assets/images/app_resultado.png" alt="">
+            <img src="assets/images/app-resultado.png" class="img-fluid" alt="">
         </div>
     </header>
 
+
+    <!-- Ficha -->
     <section class="ficha">
+
         <div class="container">
             <div class="container">
-                <h3 class="ficha__titulo">Ficha técnica</h3>
+                <h2 class="ficha__titulo">Ficha técnica</h2>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-4">
@@ -134,12 +137,12 @@
 
     <!-- Problema -->
     <section class="problema">
-        <div class="row">
+        <div class="row no-gutters">
             <div class="col-sm-5">
                 <div class="container problema__texto">
                     <div class="problema__titulo">
                         <h3>El problema inicial</h3>
-                        <h2>nuestra oportunidad</h2>
+                        <h6>nuestra oportunidad</h6>
                     </div>                    
                     <p>Desde el año 2009 se incorporan bicicletas y scooter compartidos, fomentando la intermodalidad y el abandono del uso del automovil; logrando instalarse como una alternativa orgánica que responde a la crisis ambiental y propicia una mejor calidad de vida.</p>
                     <p>Hasta ahora, las distintas marcas no se han integrado como lo hizo en su momento el Transantiago con el transporte público, lo que genera una barrera en el acceso.</p>
@@ -158,7 +161,7 @@
     <section class="">
         <div class="proceso container">
             <div class="proceso__titulo">
-                <h2>Proceso de diseño</h2>
+                <h3>Proceso de diseño</h3>
             </div>            
             <p>En la primera fase del proceso de diseño fue definir un problema inicial y en base a eso, generamos el mapa de actores para entender a quiénes debíamos entrevistar. Seguimos con la definición de 2 hipótesis y en base a eso diseñamos la investigación. Incluyó entrevistas con expertos, encuestas, opinión hunter, observación e investigación de escritorio para comprender al usuario, las marcas asociadas y las soluciones ya existentes. Era importante entender el problema y los usuarios antes de proponer cualquier idea.</p>
             <p>Una vez analizada la información, realizamos un diagnóstico centrándonos en el diseño de arquetipos y el viaje del usuario actual en 2 casos: el usuario de bicicletas compartidas y el usuario con bicicleta propia. Con ese diagnóstico re-definimos el problema y el desafío de innovación, acompañado de una propuesta de innovación.</p>
@@ -176,17 +179,17 @@
     <!-- Investigacion -->
     <section class="investigacion">
         <div class="container investigacion__texto">
-            <h2 class="investigacion__titulo">Investigación</h2>
+            <h4 class="investigacion__titulo">Investigación</h4>
             <p>Definimos 2 hipótesis de investigación que nos permitieron definir nuestra investigación:</p>
             <p>➔ Hay congestión vehicular porque los usuario no se bajan del auto, dado que no ven valor ni incentivo al uso de transporte público.</p>
             <p>➔ Hay congestión vehicular por la falta de información para ciclistas que permita tener rutas alternativas y eficientes de transporte en Santiago.</p>
-            <h3 class="mt-5 mb-5">Plan de investigación</h3>
+            <h6 class="mt-5 mb-5 investigacion__subtitulo">Plan de investigación</h6>
         </div>
         <div class="container investigacion__tabla">
             <img src="assets/images/plan-investigación.png" alt="">
         </div>
         <div class="container investigacion__texto">
-            <h3 class="mt-5 mb-5">Entrevista con experto</h3>
+            <h6 class="mt-5 mb-5">Entrevista con experto</h6>
             <p>Pese a haber identificado a una serie de expertos en el tema, decidimos entrevistar a Ricardo Hurtubia, Académico Escuela de Arquitectura UC, investigador del Centro de Desarrollo Urbano Sustentable y reconocido activista por el uso de la bicicleta, quien hizo énfasis en la necesidad de mejorar las actuales condiciones de infraestructura para subir a más personas a la bicicleta.</p>
             <div class="investigacion__cita d-flex justify-content-end align-items-center mt-4">
                 <img src="assets/images/ricardo-hurtubia.png" class="mr-3" alt="">
@@ -200,12 +203,24 @@
             <p>Realizamos 2 encuestas en línea: la primera, con 43 respuestas, para establecer patrones demográficos. La segunda, con 64 respuestas, para entender las motivaciones del uso de la bicicleta compartida y profundizar respecto de su uso.</p>
             <p>Después de analizar las respuestas, esta fue la información más relevante para la toma de decisiones en la creación de la solución:</p>
         </div>
-        <div class="container">
+        <div class="container mt-5 mb-4">
             <div class="row">
-                <div class="col-sm-3">No se como prefieres estos %</div>
-                <div class="col-sm-3">en formato foto</div>
-                <div class="col-sm-3">como las tablas</div>
-                <div class="col-sm-3">o texto</div>
+                <div class="col-sm-3">
+                    <h2 class="investigacion__porcentaje">42%</h2>
+                    <p class="text-center">Usa la bicicleta de manera recreativa.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h2 class="investigacion__porcentaje">40%</h2>
+                    <p class="text-center">Usa la bicicleta como medio de transporte durante la semana, combinando con otros medios.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h2 class="investigacion__porcentaje">84%</h2>
+                    <p class="text-center">Posee bicicleta propia.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h2 class="investigacion__porcentaje">50%</h2>
+                    <p class="text-center">La mitad de los usuarios de bicicleta compartida prefieren el pase diario.</p>
+                </div>
             </div>
         </div>
         <div class="container investigacion__texto mt-5 mb-5">
@@ -243,20 +258,57 @@
         <div class="container mt-4 mb-4 .analisis__img">
             <img src="assets/images/arquetipos.png" class="img-fluid"  alt="">
         </div>
-        <div class="row">
-            <div class="col-sm-6 analisis__arquetipo-cliente-1">
-                <div class="row">
+        <div class="row no-gutters">
+            <div class="col-sm-6">
+                <div class="analisis__arquetipo-cliente-1">
+                    <div class="row no-gutters">
+                            <div class="col-sm-6">
+                                <div class="container mt-5">
+                                    <div class="text-center">
+                                        <h4>Arquetipo del cliente</h4>
+                                        <h5>Bike lover</h5>
+                                    </div>                                
+                                    <div class="d-flex justify-content-center">
+                                        <img src="assets/images/group-28.png" class="analisis__arquetipo-img" alt="">
+                                    </div>                                
+                                    <p>Para mi la experiencia del uso de bicicletas compartidas...</p>
+                                    <p>Amo a mi bicicleta, me da la libertad que necesito y si me organizo bien, puedo llegar a tiempo a cualquier parte. Yo ando en mi chancha todos los días.</p>
+                                </div>                                
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="container mt-5">
+                                    <h6>Descripción</h6>
+                                    <p><strong>Aspiraciones / expectativas</strong></p>
+                                    <p>Quiere ser más sustentable y ahorrar plata. Sabe que en bicicleta puede reducir el tiempo de trayecto.</p>
+                                    <p><strong>Motivadores</strong></p>
+                                    <p>Necesita ahorrar plata y sabe que el Transantiago es un gasto que puede omitir. Lo motiva disminuir su huella de carbono, ser independiente, reducir los tiempos de trayecto y tener su espacio personal.</p>
+                                    <p><strong>Conocimiento / información</strong></p>
+                                    <p>Posee conocimientos básicos de las leyes. Tiene rutas rutinarias incorporadas, con rutas efecientes porque conoce las condiciones del camino. Sabe arreglar su bicicleta y conoce el mercado.</p>
+                                    <p><strong>Conducta / actitud</strong></p>
+                                    <p>Positivo y motivado. Le gusta aprender y los desafíos personales. Disfruta de difundir que anda en bici y motivar a otros.</p>
+                                    <p><strong>Atributos valorados</strong></p>
+                                    <p>Valora poder descongestionar y ayudar al ambiente, al tiempo que se mantiene en forma, ahorra dinero y mantiende su independencia.</p>
+                                    <p><strong>Relación</strong></p>
+                                    <p>Le tiene cariño, por eso le puso nombre a su bicicleta. Es su principal medio de transporte, se siente seguro en las ciclovías y cuida a su bicicleta.</p>
+                                </div>                               
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="analisis__arquetipo-cliente-2">
+                    <div class="row no-gutters">
                         <div class="col-sm-6">
                             <div class="container mt-5">
                                 <div class="text-center">
                                     <h4>Arquetipo del cliente</h4>
-                                    <h5>Bike lover</h5>
+                                    <h5>Wanna be</h5>
                                 </div>                                
                                 <div class="d-flex justify-content-center">
-                                    <img src="assets/images/group-28.png" class="analisis__arquetipo-img" alt="">
+                                    <img src="assets/images/group-38.png" class="analisis__arquetipo-img" alt="">
                                 </div>                                
                                 <p>Para mi la experiencia del uso de bicicletas compartidas...</p>
-                                <p>Amo a mi bicicleta, me da la libertad que necesito y si me organizo bien, puedo llegar a tiempo a cualquier parte. Yo ando en mi chancha todos los días.</p>
+                                <p>Me gusta la idea de tener bicicletas disponibles y dejarme llevar por el momento. Un paseo en bicicleta con los amigos, es un panorama perfecto. Soy “green” porque ando en bicicleta.</p>
                             </div>
                             
                         </div>
@@ -264,53 +316,19 @@
                             <div class="container mt-5">
                                 <h6>Descripción</h6>
                                 <p><strong>Aspiraciones / expectativas</strong></p>
-                                <p>Quiere ser más sustentable y ahorrar plata. Sabe que en bicicleta puede reducir el tiempo de trayecto.</p>
+                                <p>Quiere tener un estilo y que todos sepan que anda en bici y cuida el ambiente. Como es medio hipster, aspira a incorporar el uso de la bici a su estilo de vida.</p>
                                 <p><strong>Motivadores</strong></p>
-                                <p>Necesita ahorrar plata y sabe que el Transantiago es un gasto que puede omitir. Lo motiva disminuir su huella de carbono, ser independiente, reducir los tiempos de trayecto y tener su espacio personal.</p>
+                                <p>Lo motiva formar parte de un grupo social con gustos similares. Se esfuerza en ser más sustentable y hacer cosas recreativas que refuercen su estilo de vida. Está pendiente de subir varias selfies a instagram en la semana. La bicicleta, responde a su nuevo antojo por la sustentabilidad.</p>
                                 <p><strong>Conocimiento / información</strong></p>
-                                <p>Posee conocimientos básicos de las leyes. Tiene rutas rutinarias incorporadas, con rutas efecientes porque conoce las condiciones del camino. Sabe arreglar su bicicleta y conoce el mercado.</p>
+                                <p>Posee conocimientos básicos de las leyes del tránsito. No sabe como arreglar la bicicleta, pero sabe donde llevarla.</p>
                                 <p><strong>Conducta / actitud</strong></p>
-                                <p>Positivo y motivado. Le gusta aprender y los desafíos personales. Disfruta de difundir que anda en bici y motivar a otros.</p>
+                                <p>Busca la bicicleta como aprobación social, es entusiasta y relajado.</p>
                                 <p><strong>Atributos valorados</strong></p>
-                                <p>Valora poder descongestionar y ayudar al ambiente, al tiempo que se mantiene en forma, ahorra dinero y mantiende su independencia.</p>
+                                <p>Valora la estética de la bicicleta y todo lo que es sustentable para aportar a la descontaminación del planeta.</p>
                                 <p><strong>Relación</strong></p>
-                                <p>Le tiene cariño, por eso le puso nombre a su bicicleta. Es su principal medio de transporte, se siente seguro en las ciclovías y cuida a su bicicleta.</p>
+                                <p>Siente un amor superficial por la bicicleta, pero le da estilo.</p>
                             </div>                               
                         </div>
-                </div>
-            </div>
-            <div class="col-sm-6 analisis__arquetipo-cliente-2">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="container mt-5">
-                            <div class="text-center">
-                                <h4>Arquetipo del cliente</h4>
-                                <h5>Wanna be</h5>
-                            </div>                                
-                            <div class="d-flex justify-content-center">
-                                <img src="assets/images/group-38.png" class="analisis__arquetipo-img" alt="">
-                            </div>                                
-                            <p>Para mi la experiencia del uso de bicicletas compartidas...</p>
-                            <p>Me gusta la idea de tener bicicletas disponibles y dejarme llevar por el momento. Un paseo en bicicleta con los amigos, es un panorama perfecto. Soy “green” porque ando en bicicleta.</p>
-                        </div>
-                        
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="container mt-5">
-                            <h6>Descripción</h6>
-                            <p><strong>Aspiraciones / expectativas</strong></p>
-                            <p>Quiere tener un estilo y que todos sepan que anda en bici y cuida el ambiente. Como es medio hipster, aspira a incorporar el uso de la bici a su estilo de vida.</p>
-                            <p><strong>Motivadores</strong></p>
-                            <p>Lo motiva formar parte de un grupo social con gustos similares. Se esfuerza en ser más sustentable y hacer cosas recreativas que refuercen su estilo de vida. Está pendiente de subir varias selfies a instagram en la semana. La bicicleta, responde a su nuevo antojo por la sustentabilidad.</p>
-                            <p><strong>Conocimiento / información</strong></p>
-                            <p>Posee conocimientos básicos de las leyes del tránsito. No sabe como arreglar la bicicleta, pero sabe donde llevarla.</p>
-                            <p><strong>Conducta / actitud</strong></p>
-                            <p>Busca la bicicleta como aprobación social, es entusiasta y relajado.</p>
-                            <p><strong>Atributos valorados</strong></p>
-                            <p>Valora la estética de la bicicleta y todo lo que es sustentable para aportar a la descontaminación del planeta.</p>
-                            <p><strong>Relación</strong></p>
-                            <p>Siente un amor superficial por la bicicleta, pero le da estilo.</p>
-                        </div>                               
                     </div>
                 </div>
             </div>

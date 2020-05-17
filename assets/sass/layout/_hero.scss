@@ -4,6 +4,7 @@
     padding-top: 3rem;
     padding-bottom: 5rem;
     text-align: center;
+    height: 500px;
 }
 
 .hero__logo {
@@ -24,10 +25,18 @@
 
 .hero__app {
     position: relative;
-    bottom: -140px;
+    bottom: -80.5px;
+    
     img {
         width: 50%;
         height: auto;
+        vertical-align: center;
+    }
+}
+
+@media (max-width: 330px){
+    .hero__app {
+        bottom: -120px;
     }
 }
 
@@ -51,8 +60,7 @@
 
 @media (max-width: 1140px) {
     .hero__app {
-        
-        bottom: 140px;
+        bottom: -140px;
     }
 }
 
