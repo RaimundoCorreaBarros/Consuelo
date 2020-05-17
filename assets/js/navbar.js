@@ -3,6 +3,5 @@ $(window).scroll(function() {
         $("nav").addClass("bg-light");
     } else {
         $("nav").removeClass("bg-light");
-      
     }
 });
