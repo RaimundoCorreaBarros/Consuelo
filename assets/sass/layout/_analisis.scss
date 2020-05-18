@@ -2,6 +2,12 @@
     width: 55%;
 }
 
+@media (max-width: 576px) {
+    .analisis__texto {
+        width: 80%;
+    }
+}
+
 .analisis_arquetipo-cliente {
     color: #000000;
 }

@@ -10389,6 +10389,11 @@ p {
   padding: 1rem 0;
 }
 
+@media (max-width: 576px) {
+  .proceso {
+    width: 80%;
+  }
+}
 .investigacion {
   padding: 5rem 0;
 }
@@ -10404,6 +10409,11 @@ p {
   width: 55%;
 }
 
+@media (max-width: 576px) {
+  .investigacion__texto {
+    width: 80%;
+  }
+}
 .investigacion__tabla {
   width: 73%;
   padding-bottom: 1rem;
@@ -10432,6 +10442,11 @@ p {
   width: 55%;
 }
 
+@media (max-width: 576px) {
+  .analisis__texto {
+    width: 80%;
+  }
+}
 .analisis_arquetipo-cliente {
   color: #000000;
 }
