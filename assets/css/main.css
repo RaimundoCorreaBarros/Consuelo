@@ -10226,11 +10226,12 @@ img {
 }
 
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #58627C;
+  font-family: "Merriweather", serif;
 }
 
 p {
@@ -10440,6 +10441,12 @@ p {
 
 .analisis__texto {
   width: 55%;
+}
+.analisis__texto hr {
+  border: 1px solid #000000;
+  width: 88px;
+  height: 0;
+  margin: 0;
 }
 
 @media (max-width: 576px) {
