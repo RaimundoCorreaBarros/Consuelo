@@ -10268,7 +10268,7 @@ h6 {
 }
 
 .bg-light {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
 }
 .bg-light path {
   fill: #000 !important;
@@ -10447,6 +10447,10 @@ p {
   width: 88px;
   height: 0;
   margin: 0;
+}
+
+.analisis__h4 {
+  color: #1D1E27;
 }
 
 @media (max-width: 576px) {
