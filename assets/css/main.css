@@ -10274,6 +10274,10 @@ h6 {
   fill: #000 !important;
 }
 
+.navbar-nav {
+  text-align: right;
+}
+
 .hero {
   background-color: #1A1C41;
   background: radial-gradient(100% 100% at 50% 0%, #454CA4 0%, #1A1C41 100%);
@@ -10281,6 +10285,7 @@ h6 {
   padding-bottom: 5rem;
   text-align: center;
   height: 500px;
+  width: 100%;
 }
 
 .hero__logo {
@@ -10475,6 +10480,14 @@ p {
 }
 .analisis__img img {
   width: 85%;
+  height: auto;
+}
+
+.analisis__img2 {
+  text-align: center;
+}
+.analisis__img2 img {
+  width: 30%;
   height: auto;
 }
 
