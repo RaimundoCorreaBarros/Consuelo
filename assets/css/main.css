@@ -10225,38 +10225,41 @@ img {
   height: auto;
 }
 
-body {
-  font-family: "Work Sans", sans-serif;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: #58627C;
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
 }
 
 p {
+  font-family: "Fauna One", serif;
   font-size: 16px;
   color: #000000;
+  line-height: 24px;
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 56px;
+  line-height: 64px;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 40px;
+  line-height: 48px;
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 32px;
+  line-height: 40px;
 }
 
 h5 {
-  font-size: 23px;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 h6 {
   font-size: 18px;
+  line-height: 24px;
 }
 
 .bg-color {
@@ -10479,7 +10482,7 @@ p {
   text-align: center;
 }
 .analisis__img img {
-  width: 85%;
+  width: 180px;
   height: auto;
 }
 
